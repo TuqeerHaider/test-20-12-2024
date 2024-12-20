@@ -5,7 +5,8 @@ using namespace std;
 
 void main()
 {
-	string Vowel = { 'A','O','I','E','U','a','o','i','e','u' }, pea = "PEA";
+	char Vowel[5] = {'A','E','I','O','U'};
+	string pea = "PEA";
 	int Word;
 
 	cout << " Tell me a word";
